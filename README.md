@@ -10,3 +10,4 @@
 
 
 - [Running Redis for 8 years: what I learned about people and technology](https://milan2017.codemotionworld.com/wp-content/themes/event/detail-talk.php?detail=6539)
+    - [slides](http://antirez.com/misc/PDF_Codemotion2017.pdf)
