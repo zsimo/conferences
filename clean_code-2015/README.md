@@ -1,0 +1,1 @@
+### [Clean Code and Design Principles in Action](https://milan2015.codemotionworld.com/workshop/clean-code-and-design-principles-in-action-develop-quality-applications-faster/)
