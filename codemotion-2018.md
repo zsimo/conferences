@@ -1,5 +1,5 @@
 ### todo
--[stenciljs](https://stenciljs.com/)
+- [stenciljs](https://stenciljs.com/)
 
 
 ### companies
