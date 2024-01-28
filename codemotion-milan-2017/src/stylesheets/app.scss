@@ -1,0 +1,13 @@
+// uikit
+@import '../../node_modules/uikit/src/scss/variables.scss';
+@import '../../node_modules/uikit/src/scss/uikit-theme.scss';
+
+// helpers
+@import "helpers/variables.scss";
+
+// layouts
+@import "layouts/global.scss";
+
+// components
+@import "components/client.scss";
+@import "components/room.scss";

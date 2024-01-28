@@ -1,0 +1,26 @@
+{
+    "apps": [
+        {
+            "name": "codemotion-milan-2017",
+            "script": "./src/serverApp/server.js",
+            "watch": true,
+            "ignore_watch": ["node_modules", "configs", "db", "grunt"],
+            "env": {
+                "NODE_ENV": "production",
+                "SERVER_HOST": "0.0.0.0",
+                "SERVER_PORT": "8080",
+                "DB_USER": "",
+                "DB_PW": "",
+                "DB_HOST": "127.0.0.1",
+                "DB_PORT": "27017",
+                "DB_NAME": "codemotion2017",
+                "W_SOCK_DISPLAY": {
+                    "SUB_PATH": "websocket",
+                    "PORT": "9090"
+                },
+                "minify": true,
+                "source_map": true
+            }
+        }
+    ]
+}

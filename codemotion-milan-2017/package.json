@@ -1,0 +1,76 @@
+{
+  "name": "codemotion-milan-2017",
+  "version": "1.0.0",
+  "description": "Combining React and WebSocket to build real time web application: a case study",
+  "main": "app.js",
+  "author": "Kata Team (https://kata-team.github.io/)",
+  "contributors": [
+    "Stefano Sala <salaste83@gmail.com>",
+    "Marco Montalbano <me@marcomontalbano.com> (https://marcomontalbano.com/)",
+    "Matteo Colombo Speroni <matteo.colombo.work@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SopraIt/codemotion-milan-2017"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "grunt",
+    "babel",
+    "scss",
+    "eslint",
+    "REST",
+    "mongoDB"
+  ],
+  "scripts": {
+    "test": "grunt test",
+    "build": "grunt githooks && grunt test build",
+    "start": "pm2 kill && pm2 start configs/config.json",
+    "stop": "pm2 stop all"
+  },
+  "engines": {
+    "node": "6.10.3"
+  },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "bluebird": "^3.5.0",
+    "classnames": "^2.2.5",
+    "flux": "^3.1.0",
+    "monk": "^6.0.5",
+    "prop-types": "^15.5.7",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "rest": "^2.0.0",
+    "restify": "^4.3.0",
+    "restify-plugins": "^1.6.0",
+    "uikit": "^3.0.0-beta.34",
+    "underscore": "^1.8.3",
+    "ws": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.8",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-githooks": "^0.6.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-string-replace": "^1.3.1",
+    "grunt-webpack": "^1.0.18",
+    "load-grunt-config": "^0.19.2",
+    "string-replace-webpack-plugin": "^0.0.2",
+    "time-grunt": "^1.4.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

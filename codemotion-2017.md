@@ -1,5 +1,5 @@
 - [Combining React and Websocket to build real time web application: a case study](https://milan2017.codemotionworld.com/wp-content/themes/event/detail-talk.php?detail=7012)
-    - [demo source](https://github.com/SopraIt/codemotion-milan-2017)
+    - [demo source](/codemotion-milan-2017/README.md)
 
 - [Frameworkless Frontend Development](https://milan2017.codemotionworld.com/wp-content/themes/event/detail-talk.php?detail=6593)
     - [slides](http://slides.com/francescostrazzullo/frameworkless-frontend-development-codemotion-milan-2017#/)

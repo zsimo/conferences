@@ -1,0 +1,42 @@
+.component--room {
+    display: inline-block;
+    width: 50%;
+    height: 33.33%;
+    background-color: $color-palette-1;
+    color: $color-palette-3;
+    box-sizing: border-box;
+    border: 1px solid $color-palette-3;
+    text-align: center;
+
+    .title {
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+
+    .people {
+        line-height: initial;
+        display: inline-block;
+        position: relative;
+
+        .label {
+            font-size: 40px;
+            color: $color-palette-2;
+            position: absolute;
+            top: 25px;
+            height: auto;
+            width: auto;
+            vertical-align: top;
+            line-height: initial;
+            left: 0;
+            transform: translateX(-100%);
+        }
+
+        .number {
+            font-size: 150px;
+        }
+    }
+
+    &:first-child {
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+# testing
+test:
+    - 'eslint:source'
+
+# stylesheets
+stylesheets:
+    - 'sass:all'
+    - 'cssmin:all'
+
+# javascripts
+javascripts:
+    - 'webpack:all'
+
+# build
+build:
+    - 'clean:build'
+    - 'javascripts'
+    - 'stylesheets'
+    - 'copy:all'
+    - 'string-replace'
+
+# default
+default:
+    - 'test'
+    - 'build'
+    - 'watch'
